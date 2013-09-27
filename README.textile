@@ -1,2 +1,4 @@
-h2. Scala Code Coverage Tool - Name Pending
+!https://travis-ci.org/SCCT/sbt-scct.png?branch=master!:https://travis-ci.org/SCCT/sbt-scct
+
+h2. Scala Code Coverage Tool
 
