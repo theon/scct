@@ -60,10 +60,7 @@ trait InstrumentationSupport {
   }
 
   def locateCompiledClasses() = {
-    val scalaTargetDir = scalaVersion match {
-      case "2.10.0-RC3" => "2.10"
-      case x => x
-    }
+    val scalaTargetDir = scalaVersion
     val first = new File("./target/scala-"+scalaTargetDir+"/classes")
     val second = new File("./scct/target/scala-"+scalaTargetDir+"/classes")
     if (first.exists) {
